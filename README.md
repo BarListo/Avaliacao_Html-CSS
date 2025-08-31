@@ -13,3 +13,6 @@ Ao pesquisar sobre desenvolvimento web, as tecnologias utilizadas são HTML + CS
 
 Foram utilizadas imagens de código aberto, para estilizar as páginas.
 
+Por ser uma aplicação web, não será necessária a instalação.
+
+Por ser uma aplicação web dinâmica, se adequará a variados tipos de tela.
