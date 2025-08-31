@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Cadastro_animal</title>
+</head>
+<body>
+    <div class="form-image">
+        <img src="assets/img/undraw_dog_jfxm.svg">
+
+    </div>
+    <div class="form">
+        <form id="formAnimal" action="#">
+            <div class="form-header">
+                <div class="title">
+                    <h1>Cadastre seu animalzinho</h1>
+                </div>
+            </div>
+            <div class="input-group">
+                <div class="input-box">
+                    <label for="name">Nome do Pet</label>
+                    <input id="name" type="text" name="name" placeholder="Digite o nome do seu Pet" required>
+                </div>
+
+                <div class="input-box">
+                    <label for="type">Raça do Pet</label>
+                    <input id="tipo" type="text" name="tipo" placeholder="Qual a raça do seu Pet?" required>
+                </div>
+
+                <div class="input-box">
+                    <label for="age">Idade do Pet</label>
+                    <input id="age" type="number" name="age" placeholder="Qual a idade do Pet?" required>
+                </div>
+
+                <div class="input-box">
+                    <label for="weight">Peso do Pet</label>
+                    <input id="weight" type="number" name="weight" placeholder="Qual o peso do Pet?" required>
+                </div>
+
+                <div class="gender-inputs">
+                    <div class="gender-title">
+                        <h6>Gênero</h6>
+                    </div>
+
+                    <div class="gender-group">
+                        <div class="gender-input">
+                            <input type="radio" id="female" name="gender">
+                            <label for="female">Fêmea</label>
+                        </div>
+                        
+                        <div class="gender-input">
+                            <input type="radio" id="male" name="gender">
+                            <label for="male">Macho</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button src="submit">Cadastrar</button>
+        </form>
+    </div>
+    
+</body>
+</html>
