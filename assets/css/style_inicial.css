@@ -1,0 +1,56 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #f7f7f7;
+}
+
+.container {
+    text-align: center;
+}
+
+/* Estilo da imagem */
+.form-image img {
+    max-width: 350px;
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+/* Título */
+.title h1 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Botão */
+.login-button button {
+    background-color: #ff914d;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login-button button a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+/* Hover - escurece */
+.login-button button:hover {
+    background-color: #cc6f2f;
+}

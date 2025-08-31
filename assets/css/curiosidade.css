@@ -1,0 +1,76 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* centraliza no eixo vertical */
+    align-items: center;    /* centraliza no eixo horizontal */
+    min-height: 100vh;
+    padding: 20px;
+    background: #f7f7f7;
+    text-align: center;
+}
+
+/* Imagem */
+.form-image img {
+    max-width: 350px;  /* limita o tamanho da imagem */
+    width: 100%;       /* ocupa 100% do espaço disponível até o limite */
+    height: auto;
+    margin-bottom: 20px;
+}
+
+/* Títulos */
+h1 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+h2 {
+    font-size: 1.5rem;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+h3 {
+    font-size: 1rem;
+    font-weight: normal;
+    color: #666;
+    line-height: 1.6;
+    max-width: 800px; /* limita largura do texto em telas grandes */
+    margin-bottom: 20px;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1.6rem;
+    }
+    h2 {
+        font-size: 1.2rem;
+    }
+    h3 {
+        font-size: 0.95rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .form-image img {
+        max-width: 250px;
+    }
+    h1 {
+        font-size: 1.3rem;
+    }
+    h2 {
+        font-size: 1rem;
+    }
+    h3 {
+        font-size: 0.85rem;
+    }
+}
